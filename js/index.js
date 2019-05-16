@@ -51,7 +51,8 @@ const midImg = document.getElementById('middle-img');
 const contact = document.querySelectorAll('.contact');
 const foot = document.querySelectorAll('footer');
 const btn = document.querySelectorAll('button');
-
+const h4 = document.querySelectorAll('h4');
+const p = document.querySelectorAll('p');
 
 
 aTag[0].textContent = 'Services';
@@ -63,4 +64,19 @@ aTag[5].textContent = 'Contact';
 //aTag.style.color = "green";;
 ctaImg.src = 'img/header-img.png';
 midImg.setAttribute('src', 'img/mid-page-accent.jpg' );
-btn.textContent = 'Get Started';
+btn[0].textContent = 'Get Started';
+h4[0].textContent = 'Features';
+h4[1].textContent = 'About';
+h4[2].textContent = 'Services';
+h4[3].textContent = 'Product';
+h4[4].textContent = 'Vision';
+h4[5].textContent = 'Contact';
+p[0].textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+p[1].textContent = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+p[2].textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+p[3].textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+p[4].textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+p[5].textContent = '123 Way 456 Street Somewhere, USA';
+p[6].textContent = '1 (888) 888-8888';
+p[7].textContent ="sales@greatidea.io";
+p[8].textContent = "Copyright Great Idea! 2018";
