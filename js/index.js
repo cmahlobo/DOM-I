@@ -51,6 +51,7 @@ const midImg = document.getElementById('middle-img');
 const contact = document.querySelectorAll('.contact');
 const foot = document.querySelectorAll('footer');
 const btn = document.querySelectorAll('button');
+const h1 = document.querySelectorAll('h1');
 const h4 = document.querySelectorAll('h4');
 const p = document.querySelectorAll('p');
 
@@ -65,6 +66,7 @@ aTag[5].textContent = 'Contact';
 ctaImg.src = 'img/header-img.png';
 midImg.setAttribute('src', 'img/mid-page-accent.jpg' );
 btn[0].textContent = 'Get Started';
+h1[0].textContent = 'DOM Is Awesome';
 h4[0].textContent = 'Features';
 h4[1].textContent = 'About';
 h4[2].textContent = 'Services';
