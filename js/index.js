@@ -46,11 +46,11 @@ const nav = document.querySelectorAll('nav');
 const aTag = document.querySelectorAll('a');
 const ctaSec = document.querySelectorAll('.cta');
 const mainCon = document.querySelectorAll('.main-content');
-//const imgLogo = document.getElementById('logo-img');
 const ctaImg = document.getElementById("cta-img");
 const midImg = document.getElementById('middle-img');
 const contact = document.querySelectorAll('.contact');
 const foot = document.querySelectorAll('footer');
+const btn = document.querySelectorAll('button');
 
 
 
@@ -63,3 +63,4 @@ aTag[5].textContent = 'Contact';
 //aTag.style.color = "green";;
 ctaImg.src = 'img/header-img.png';
 midImg.setAttribute('src', 'img/mid-page-accent.jpg' );
+btn.textContent = 'Get Started';
