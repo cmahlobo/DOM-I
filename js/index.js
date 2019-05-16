@@ -47,20 +47,19 @@ const aTag = document.querySelectorAll('a');
 const ctaSec = document.querySelectorAll('.cta');
 const mainCon = document.querySelectorAll('.main-content');
 //const imgLogo = document.getElementById('logo-img');
-const ctaImg = document.getElementById('cta-img');
+const ctaImg = document.getElementById("cta-img");
 const midImg = document.getElementById('middle-img');
 const contact = document.querySelectorAll('.contact');
 const foot = document.querySelectorAll('footer');
 
 
 
-
-aTag[1].textContent = 'Services';
-aTag[2].textContent = 'Product';
-aTag[3].textContent = 'Vision';
-aTag[4].textContent = 'Features';
-aTag[5].textContent = 'About';
-aTag[6].textContent = 'Contact';
-aTag[7].setAttribute('src', 'img/logo.png')
-ctaImg.setAttribute('src','img/mid-page-accent.jpg');
+aTag[0].textContent = 'Services';
+aTag[1].textContent = 'Product';
+aTag[2].textContent = 'Vision';
+aTag[3].textContent = 'Features';
+aTag[4].textContent = 'About';
+aTag[5].textContent = 'Contact';
+//aTag.style.color = "green";;
+ctaImg.src = 'img/header-img.png';
 midImg.setAttribute('src', 'img/mid-page-accent.jpg' );
